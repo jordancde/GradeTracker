@@ -33,6 +33,7 @@ public class Info {
             (new File(FILEPATHClasses)).createNewFile();
             
         }
+        //writeClasses(new String[]{"History","Math","Functions","Computer Science"});
         classes = readClasses();
         
     }
